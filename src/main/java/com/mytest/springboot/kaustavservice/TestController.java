@@ -13,7 +13,7 @@ public class TestController {
     public Test getTest(){
         Test test = new Test();
         test.id = "125252";
-        test.name = "Kaustav3";
+        test.name = "Kaustav323";
         return test;
     }
 }
