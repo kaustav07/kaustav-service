@@ -12,8 +12,8 @@ public class TestController {
     @RequestMapping("/test")
     public Test getTest(){
         Test test = new Test();
-        test.id = "12525";
-        test.name = "Kaustav";
+        test.id = "125252";
+        test.name = "Kaustav3";
         return test;
     }
 }
