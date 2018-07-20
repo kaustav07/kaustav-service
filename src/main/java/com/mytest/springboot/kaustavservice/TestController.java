@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @ResponseBody
-    @RequestMapping("/test")
+    @RequestMapping("/circle/test")
     public Test getTest(){
         Test test = new Test();
-        test.id = "circleDeploy";
-        test.name = "Kaustav323";
+        test.id = "Kaustav";
+        test.name = "nearbuy";
         return test;
     }
 }
