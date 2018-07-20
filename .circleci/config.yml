@@ -41,7 +41,8 @@ jobs:
       - run: mvn integration-test
 
   deploy:
-    branch: master
-    heroku:
-      appname: infinite-citadel-11123
+    steps:
+      - branch: master
+      - heroku:
+          appname: infinite-citadel-11123
 
