@@ -45,12 +45,3 @@ jobs:
     heroku:
       appname: infinite-citadel-11123
 
-workflows:
-  version: 2
-  build-and-deploy:
-    jobs:
-      steps:
-        - build
-        - deployment:
-            requires:
-              - build
