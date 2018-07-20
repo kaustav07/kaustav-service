@@ -42,7 +42,7 @@ jobs:
 
   deploy-stage:
     docker:
-      - image: ubuntu:14.04
+      - image: buildpack-deps:trusty
     steps:
       - checkout
       - run:
