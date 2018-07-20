@@ -48,7 +48,7 @@ jobs:
       - run:
           name: Deploy if tests pass and branch is Staging
           command: |
-            git push https://heroku:8ef04dfa-7ef9-481b-8879-4d199b5f9900@git.heroku.com/infinite-citadel-11123.git master
+                      git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
 workflows:
   version: 2
   build-deploy:
