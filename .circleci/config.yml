@@ -41,9 +41,9 @@ jobs:
       - run: mvn integration-test
 
   deploy:
-    machine:
-      node:
-        version: 6.10.0
+    docker:
+      # specify the version you desire here
+      - image: circleci/openjdk:8-jdk
     steps:
       - branch: master
       - heroku:
