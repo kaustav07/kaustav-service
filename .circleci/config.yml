@@ -43,8 +43,8 @@ jobs:
   deployment:
     staging:
       branch: master
-       heroku:
-          appname: infinite-citadel-11123
+      heroku:
+        appname: infinite-citadel-11123
 
 workflows:
   version: 2
